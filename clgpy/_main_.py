@@ -1,5 +1,5 @@
 import numpy as np
-import math
+#import math
 # A number is Prime or Not
 # Return True or False
 def isPrime(number):
@@ -316,9 +316,7 @@ def factorial(n):
 
 #Magic Number
 #Check
-def isMagicNumber(n):
-    import math
-
+'''def isMagicNumber(n):
     digitCount = int(math.log10(n))+1
     sumOfDigits = 0
 
@@ -340,6 +338,7 @@ def isMagicNumber(n):
         return "True"
     else:
         return "False"
+        '''
 
 
 #Simple and Compound Interest
